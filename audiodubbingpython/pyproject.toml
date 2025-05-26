@@ -1,0 +1,13 @@
+[project]
+name = "audiodubbingpython"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deep-translator>=1.11.4",
+    "gtts>=2.5.4",
+    "openai-whisper>=20240930",
+    "pydub>=0.25.1",
+    "torch>=2.7.0",
+]
