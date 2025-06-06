@@ -11,3 +11,6 @@ dependencies = [
     "pydub>=0.25.1",
     "torch>=2.7.0",
 ]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
