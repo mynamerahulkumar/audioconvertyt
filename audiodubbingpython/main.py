@@ -85,6 +85,7 @@ def english_mp3_to_spanish_mp3(input_mp3, output_mp3, chunk_length_ms=60000):
     print(f"Spanish audio saved to {output_mp3}")
 
 # Example usage:
-input_mp3_file = "english_long_audio.mp3"
-output_mp3_file = "spanish_long_audio.mp3"
-english_mp3_to_spanish_mp3(input_mp3_file, output_mp3_file)
+if __name__ == "__main__":
+    input_mp3_file = "english_long_audio.mp3"
+    output_mp3_file = "spanish_long_audio.mp3"
+    english_mp3_to_spanish_mp3(input_mp3_file, output_mp3_file)
